@@ -25,12 +25,12 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   # Uncomment to register a new dependency of your gem
-  spec.add_runtime_dependency 'activesupport', '>= 5.0', '< 8.0'
+  spec.add_runtime_dependency 'activesupport', '>= 5.0', '< 9.0'
   spec.add_runtime_dependency 'colorize', '>= 1.1', '< 2'
   spec.add_runtime_dependency 'launchy', '>= 3.0', '< 4'
   spec.add_runtime_dependency 'nokogiri', '>= 1.16.5', '< 2'
 
-  spec.add_development_dependency 'activerecord', '>= 5.0', '< 8.0'
+  spec.add_development_dependency 'activerecord', '>= 5.0', '< 9.0'
   spec.add_development_dependency 'minitest'
   spec.add_development_dependency 'mocha'
   spec.add_development_dependency 'pry-byebug'
